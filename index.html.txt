@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bakuzen Naniwa Photography</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Helvetica, Arial, sans-serif;
+    background:white;
+    color:#111;
+}
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:white;
+    padding:20px 40px;
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid #eee;
+}
+nav a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#111;
+}
+section{
+    padding:120px 60px;
+}
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+h1{font-size:42px;margin:0;}
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+.gallery img{
+    width:100%;
+}
+footer{
+    padding:40px;
+    text-align:center;
+    border-top:1px solid #eee;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div>Bakuzen Naniwa Photography</div>
+<nav>
+<a href="#art">ARTWORK</a>
+<a href="#portfolio">PORTFOLIO</a>
+<a href="#about">ABOUT</a>
+<a href="#contact">CONTACT</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Tokyo based Photographer</h1>
+<p>Fashion / Portrait / Documentary</p>
+</section>
+
+<section id="art">
+<h2>ARTWORK</h2>
+<h3>Documentary / Personal</h3>
+<div class="gallery">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+</div>
+
+<h3>Daily Snap</h3>
+<div class="gallery">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+</div>
+</section>
+
+<section id="portfolio">
+<h2>PORTFOLIO</h2>
+
+<h3>Fashion</h3>
+<div class="gallery">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+</div>
+
+<h3>Portrait</h3>
+<div class="gallery">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+</div>
+
+<h3>Product</h3>
+<div class="gallery">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+<img src="https://via.placeholder.com/600x800">
+</div>
+</section>
+
+<section id="about">
+<h2>ABOUT</h2>
+<p>
+Born in Osaka in 1995.<br>
+After working at a studio in Daikanyama, became freelance in 2024.<br><br>
+
+Specializing in portrait and documentary photography using natural light.<br>
+Available for brand visuals, advertising, artist photography and editorial work.<br><br>
+
+Location: Tokyo, Japan<br>
+Equipment: Sony Digital / Nikon Film
+</p>
+</section>
+
+<section id="contact">
+<h2>CONTACT</h2>
+<p>Email: yourmail@example.com</p>
+<p>Instagram: @youraccount</p>
+</section>
+
+<footer>
+© Bakuzen Naniwa Photography
+</footer>
+
+</body>
+</html>
